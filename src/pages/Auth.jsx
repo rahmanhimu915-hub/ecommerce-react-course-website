@@ -1,5 +1,9 @@
 
 
+/**
+ * Renders the placeholder heading for the authentication page.
+ * @returns {import('react').ReactElement} The authentication page placeholder.
+ */
 export default function Auth() {
     return (
         <div>

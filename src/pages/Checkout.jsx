@@ -1,4 +1,8 @@
 
+/**
+ * Renders the placeholder heading for the checkout page.
+ * @returns {import('react').ReactElement} The checkout page placeholder.
+ */
 export default function Checkout() {
     return (
         <div>

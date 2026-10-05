@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+/**
+ * Renders the ShopHub brand and links to the home, checkout, and authentication pages.
+ * @returns {import('react').ReactElement} The storefront navigation bar.
+ */
 export default function Navbar() {
     return (
         <nav className="navbar">

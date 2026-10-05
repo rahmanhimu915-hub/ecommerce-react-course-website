@@ -1,6 +1,10 @@
 import { getProducts } from "../Data/Products"
 import { Link } from "react-router-dom"
 
+/**
+ * Renders the storefront welcome section and product catalog with action controls.
+ * @returns {import('react').ReactElement} The home page and its product grid.
+ */
 export default function Home() {
     const products = getProducts()
     return (

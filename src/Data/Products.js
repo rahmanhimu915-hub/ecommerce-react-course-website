@@ -73,6 +73,10 @@ const products = [
   },
 ];
 
+/**
+ * Returns the shared in-memory product catalog without copying it.
+ * @returns {Array<{id: number, name: string, price: number, image: string, description: string}>} The catalog products.
+ */
 export function getProducts() {
   return products;
 }
